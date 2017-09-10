@@ -280,8 +280,8 @@ if (file_exists('tutors-cache.txt') && $now - filemtime('tutors-cache.txt') < 60
                   </table>
                 </div>
                 <a class="btn btn-primary btn-large" href="https://www.google.com/calendar/embed?src=04lnqg1jsbtupnkq09esf5ccpo%40group.calendar.google.com&amp;ctz=America/New_York" onClick="_gaq.push(['_trackEvent', 'Followup', 'Schedule']);">See full schedule &raquo;</a>
- 		<a class="btn btn-danger btn-large" href="https://docs.google.com/a/u.rochester.edu/forms/d/e/1FAIpQLScjeOhaXNm87GUqBsjxAHZP2RT39PHZM7BPwW919wOMozWkEw/viewform" onClick="_gaq.push(['_trackEvent', 'Followup', 'Schedule']);">Missing Tutors :( &raquo;</a>
-                <a class="btn btn-success btn-large" href="https://docs.google.com/a/u.rochester.edu/forms/d/e/1FAIpQLSfNAKKCvs7vt1Pe6fzEiQZb7R0t6vUQ713Hj4t5naAnWUUKow/viewform" onClick="_gaq.push(['_trackEvent', 'Followup', 'Schedule']);">Excellent Tutors :) &raquo;</a>
+ 		<a class="btn btn-danger btn-large" href="https://docs.google.com/forms/d/e/1FAIpQLSd-nTHUCoLKDUEKZbtKLuqS9_3p8ZSQYwPYz0zKbBbHKLi05A/viewform?usp=sf_link" onClick="_gaq.push(['_trackEvent', 'Followup', 'Schedule']);">Missing Tutors :( &raquo;</a>
+                <a class="btn btn-success btn-large" href="https://docs.google.com/forms/d/e/1FAIpQLScXtNJBPWCt9gF_Pl3oqyMiKHuDGmfkDrbqci6OCcMY24ZHcQ/viewform?usp=sf_link" onClick="_gaq.push(['_trackEvent', 'Followup', 'Schedule']);">Excellent Tutors :) &raquo;</a>
             </div>
 
             <div class="row">
