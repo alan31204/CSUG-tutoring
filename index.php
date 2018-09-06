@@ -228,7 +228,8 @@ if (file_exists('tutors-cache.txt') && $now - filemtime('tutors-cache.txt') < 60
                 <h1>Need CS help?</h1>
                 <p>You're in the right place. <img src="csug-b-256-t.png" width="32" height="32" alt="CSUG (logo)" title="Computer Science Undergraduate Council" style="cursor:help" /> offers <b>free tutoring</b> for all <b>Computer Science</b> courses.</p>
                 <?php echo $tutoring_list; ?>
-                <h2>CETL Comp Sci Walk-in Tutoring</h2>
+                <div class="cetl-info">
+                  <h2>CETL Comp Sci Walk-in Tutoring</h2>
                   <div>
                     <a href="https://www.rochester.edu/college/cetl/undergraduate/tutoring.html">CETL Tutoring Website</a>
                   </div>
@@ -251,37 +252,76 @@ if (file_exists('tutors-cache.txt') && $now - filemtime('tutors-cache.txt') < 60
  		<a class="btn btn-danger btn-large" href="https://docs.google.com/forms/d/e/1FAIpQLSd-nTHUCoLKDUEKZbtKLuqS9_3p8ZSQYwPYz0zKbBbHKLi05A/viewform?usp=sf_link" onclick="_gaq.push(['_trackEvent', 'Followup', 'Schedule']);">Missing Tutors :( »</a>
                 <a class="btn btn-success btn-large" href="https://docs.google.com/forms/d/e/1FAIpQLScXtNJBPWCt9gF_Pl3oqyMiKHuDGmfkDrbqci6OCcMY24ZHcQ/viewform?usp=sf_link" onclick="_gaq.push(['_trackEvent', 'Followup', 'Schedule']);">Excellent Tutors :) »</a>
             </div>
-			<div class="row">
-				<div class="span6">
-    	                <h4>CETL also offers free drop-in tutoring!!</h4>
-        	            <ul>
-            	            <li>Time: Sundays, 4 - 8 PM</li>
-                	        <li>Location: Genesse Hall 2nd Floor, Tutoring Zone, (G 230) </li>
-                    	    <li>Courses offered: CSC 161, 171, 172</li>
-                   		</ul>
-				</div>
 
-			</div>
+            <div class="row">
+                <div class="span12">
+                    <p style="text-align: center">The following four sections were adapted from the <a href="https://www.rochester.edu/college/cetl/undergraduate/tutoring.html">tutoring policies</a> of the Center for Excellence in Teaching and Learning (CETL), used with permission.</p>
+                </div>
+            </div>
+
             <div class="row">
                 <div class="span6">
-                    <h2>Who we are</h2>
-                    <p>We're a bunch of volunteer computer science majors looking to provide help to those who need it.  Feel free to drop by and say hello.</p>
+                    <h2>What we can do</h2>
+                    <ul>
+                        <li>Help set up your development environment (those tutors with an asterisk next to their name)</li>
+                        <li>Help troubleshoot or debug code within course policies</li>
+                        <li>Review and help clarify assignments</li>
+                        <li>Explain underlying theoretical concepts that were presented in class</li>
+                        <li>Provide you with additional examples and practice problems</li>
+                        <li>Encourage discussion/collaboration with other students in accordance with course policies</li>
+                        <li>Help brainstorm how to approach a problem, and nurture the path to a solution</li>
+                        <li>Help you understand the textbook and utilize external resources</li>
+                        <li>Informally advise about CS-related courses and activities</li>
+                    </ul>
                 </div>
                 <div class="span6">
-                    <h2>What we do</h2>
-                    <p>We provide tutoring <b>Monday through Fridays</b> during the school year.  If you're having difficulty with homework, you're stuck on a project, or you need a second pair of eyes, please stop by. Some of us are also able to help you set up your development environment!</p>
+                    <h2>What we can't do</h2>
+                    <ul>
+                        <li>Do your homework or programming assignment for you</li>
+                        <li>Guarantee an error-free assignment or better grade</li>
+                        <li>Teach new material missed in class</li>
+                        <li>Help with take-home or make-up tests</li>
+                        <li>Clarify course policies</li>
+                        <li>Help with CSC200 (sorry!)</li>
+                        <li>Help with an assignment that is due within 24 hours (by discretion of the tutor. Please come well-prepared if your assignment is due soon, and please make sure you have made significant progress!)</li>
+                        <li>Encourage collaboration or give help that is not allowed by course policies</li>
+                        <li>Be a substitute for your TAs or instructors</li>
+                    </ul>
                 </div>
             </div>
             <hr>
             <div class="row">
                 <div class="span6">
-                    <h2>Find us</h2>
-                    <p>You'll usually be able to find one of us in <b>Hylan 301</b> (the non-major's computer science lab) on weekdays between 9AM and 9PM.  Please see our schedule for more details or changes in our location.</p>
+                    <h2>How to Make the Most of CSUG Tutoring</h2>
+                    <p>In order to make the most of your time and the tutor's time, please come prepared with a question in hand or a specific thing/concept you're wondering about. The more specific the question or concern, the better we are able to help you. <br> Before you come, please make sure you've answered "Yes" to the following questions: </p>
+                    <ul>
+                        <li>Have I tried debugging my code (if you have a debugging question)?</li>
+                        <li>Have I tried reading the textbook or looking at lecture notes (if you have a conceptual question)?</li>
+                        <li>Have I looked online to try to address my question (assuming it is within course policies)?</li>
+                        <li>Have I sought help from my TAs or instructor?</li>
+                    </ul>
+                </div>
+                <div class="span6">
+                    <h2>What Makes a Good Question?</h2>
+                    <p>A good question (one that we are most able to help you with) consists of multiple parts:</p>
+                    <ul>
+                        <li>The specific thing you're having trouble with, stuck on, or wondering</li>
+                        <li>What you've already tried in order to address your question</li>
+                        <li>Where you are in your understanding of related concepts</li>
+                    </ul>
+                    <p>In order to make the most of everyone's time, if we think it would be hard to help you given the information you've provided, we may ask that you reframe your question so it meets the above criteria before we offer our assistance.</p>
+                </div>
+            </div>
+            <hr>
+           <div class="row">
+                <div class="span6">
+                    <h2>About us</h2>
+                    <p>We're a bunch of volunteer computer science students looking to provide help to those who need it. If you're having difficulty with homework, you're stuck on a project, or you need a second pair of eyes, please drop by. You'll usually be able to find one of us in <b>Hylan 301</b> (the non-major's computer science lab) on weekdays between 9AM and 9PM.  Please see the above schedule for more details or changes in our location.</p>
                 </div>
                 <div class="span6">
                     <h2>Contact us</h2>
-                <p>Can't find the room?  Do you have a comment or suggestion?  Unable to attend any of the times?  Want to become a tutor?</p>
-                    <p><a class="btn" href="mailto:csug-tutoring@googlegroups.com">Send us an email &raquo;</a></p>
+                <p>Can't find the room?  Have a comment or suggestion?  Unable to attend any of the times?  Want to become a tutor?</p>
+                    <p><a class="btn" href="mailto:csug-tutoring@googlegroups.com">Send us an email »</a></p>
                 </div>
             </div>
 
