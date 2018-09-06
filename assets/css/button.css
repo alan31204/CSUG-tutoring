@@ -1,0 +1,21 @@
+.btn-awesome {
+	background-color:#2e9a60;
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#2e9a60), to(#2f9d66));
+	background-image: -webkit-linear-gradient(top, #2e9a60, #2f9d66);
+	background-image: linear-gradient(to bottom, #2e9a60, #2f9d66);
+}
+
+.btn-awesome:hover{
+	background-color:#389d68;
+}
+
+.btn-missing {
+	background-color:#8f85d4;
+	background-image: -webkit-linear-gradient(top, #8f85d4, #9288d7);
+	background-image: -webkit-gradient(linear,0 0, 0 100%, from(#8f85d4), to(#9288d7));
+    background-image: linear-gradient(to bottom, #8f85d4, #9288d7); 
+}
+
+.btn-missing:hover{
+	background-color:#958bd9;
+}
